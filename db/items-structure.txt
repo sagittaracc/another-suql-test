@@ -1,0 +1,11 @@
+CREATE TABLE `items` ( 
+    `name` VARCHAR(255) NOT NULL COLLATE 'utf8mb4_general_ci' 
+    `price` INT(10) NOT NULL 
+    `quantity` INT(10) NOT NULL 
+    `sum` INT(10) NOT NULL 
+    `nds` INT(10) NOT NULL 
+    `productType` INT(10) NOT NULL 
+    `paymentType` INT(10) NOT NULL 
+) 
+COLLATE='utf8mb4_general_ci' 
+ENGINE=InnoDB 

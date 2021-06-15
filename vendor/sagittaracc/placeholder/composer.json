@@ -1,0 +1,14 @@
+{
+  "name": "sagittaracc/placeholder",
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  },
+  "require": {
+    "sagittaracc/arrays": "~0.1.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  }
+}

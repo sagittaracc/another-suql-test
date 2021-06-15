@@ -1,0 +1,9 @@
+CREATE TABLE `receipt` ( 
+    `id` INT(10) NOT NULL 
+    `ofdId` VARCHAR(255) NOT NULL COLLATE 'utf8mb4_general_ci' 
+    `receiveDate` VARCHAR(255) NOT NULL COLLATE 'utf8mb4_general_ci' 
+    `subtype` VARCHAR(255) NOT NULL COLLATE 'utf8mb4_general_ci' 
+    `address` VARCHAR(255) NOT NULL COLLATE 'utf8mb4_general_ci' 
+) 
+COLLATE='utf8mb4_general_ci' 
+ENGINE=InnoDB 

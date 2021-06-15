@@ -1,0 +1,32 @@
+CREATE TABLE `content` ( 
+    `messageFiscalSign` BIGINT(20) NOT NULL 
+    `code` INT(10) NOT NULL 
+    `fiscalDriveNumber` VARCHAR(255) NOT NULL COLLATE 'utf8mb4_general_ci' 
+    `kktRegId` VARCHAR(255) NOT NULL COLLATE 'utf8mb4_general_ci' 
+    `userInn` VARCHAR(255) NOT NULL COLLATE 'utf8mb4_general_ci' 
+    `fiscalDocumentNumber` INT(10) NOT NULL 
+    `dateTime` INT(10) NOT NULL 
+    `fiscalSign` INT(10) NOT NULL 
+    `shiftNumber` INT(10) NOT NULL 
+    `requestNumber` INT(10) NOT NULL 
+    `operationType` INT(10) NOT NULL 
+    `totalSum` INT(10) NOT NULL 
+    `fiscalDocumentFormatVer` INT(10) NOT NULL 
+    `cashTotalSum` INT(10) NOT NULL 
+    `ecashTotalSum` INT(10) NOT NULL 
+    `prepaidSum` INT(10) NOT NULL 
+    `creditSum` INT(10) NOT NULL 
+    `provisionSum` INT(10) NOT NULL 
+    `nds18` INT(10) NOT NULL 
+    `nds10` INT(10) NOT NULL 
+    `appliedTaxationType` INT(10) NOT NULL 
+    `operator` VARCHAR(255) NOT NULL COLLATE 'utf8mb4_general_ci' 
+    `operatorInn` VARCHAR(255) NOT NULL COLLATE 'utf8mb4_general_ci' 
+    `user` VARCHAR(255) NOT NULL COLLATE 'utf8mb4_general_ci' 
+    `retailPlace` VARCHAR(255) NOT NULL COLLATE 'utf8mb4_general_ci' 
+    `region` VARCHAR(255) NOT NULL COLLATE 'utf8mb4_general_ci' 
+    `numberKkt` VARCHAR(255) NOT NULL COLLATE 'utf8mb4_general_ci' 
+    `redefine_mask` INT(10) NOT NULL 
+) 
+COLLATE='utf8mb4_general_ci' 
+ENGINE=InnoDB 
