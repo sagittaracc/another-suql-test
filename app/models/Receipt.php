@@ -24,6 +24,6 @@ class Receipt extends ActiveRecord
 
     public function fields()
     {
-        return [];
+        return ['*'];
     }
 }

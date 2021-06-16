@@ -9,7 +9,7 @@ require 'vendor/autoload.php';
 Container::create(require __DIR__ . '/app/config/db.php');
 
 // Fetch data from the database
-$data = Receipt::all()->getContent()->getItems()->getDiscounts()->getItem()->fetchAll();
+$data = Receipt::all()->getContent()->getItems()->getItem()->getDiscounts()->fetchAll();
 
 echo "<pre>";
 print_r($data);
